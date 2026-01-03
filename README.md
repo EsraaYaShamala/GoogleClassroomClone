@@ -1,7 +1,9 @@
 # Google Classroom Clone
+> A production-level Laravel application demonstrating advanced backend development practices.
 ## 📌 Project Overview
 A full-featured **Google Classroom Clone** built with **Laravel**, designed to manage virtual classrooms and educational workflows.  
 The project demonstrates advanced Laravel concepts, clean architecture, and real-world backend features commonly used in production-level applications.
+This project was built as a real-world Laravel application showcasing advanced backend development concepts.
 
 ---
 
@@ -98,36 +100,50 @@ The project demonstrates advanced Laravel concepts, clean architecture, and real
   
 
 ## 🚀 Installation & Setup
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/EsraaYaShamala/GoogleClassroomClone.git
+```
 
 2. Navigate to the project directory:
+```bash
 cd GoogleClassroomClone
+```
 
 3. Install PHP dependencies:
+```bash
 composer install
+```
 
 4. Copy and configure environment file:
+```bash
 cp .env.example .env
-Update database settings in .env (DB_CONNECTION, DB_DATABASE, DB_USERNAME, DB_PASSWORD)
+```
 
 5. Generate Laravel application key:
+```bash
 php artisan key:generate
+```
 
 6 .Run migrations:
+```bash
 php artisan migrate
+```
 
 7. (Optional) Seed database:
+```bash
 php artisan db:seed
+```
 
 8.Run queues:
+```bash
 php artisan queue:work
+```
 
 9.Start development server:
+```bash
 php artisan serve
-
+```
 ---
 
 ## 📈 Future Improvements
@@ -146,5 +162,7 @@ Esraa Yasser
 
 ## 📄 License
 This project is for educational purposes and learning only.
+
+
 
 
