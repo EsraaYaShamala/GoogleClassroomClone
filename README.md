@@ -156,28 +156,28 @@ php artisan serve
 ## 📸 Screenshots
 
 ### Login
-![Login](screenshots/login.png)
+<img src="screenshots/login.png" width="400" />
 
 ### Classrooms List
-![Classrooms List](screenshots/classrooms.png)
+<img src="screenshots/classrooms.png" width="600" />
 
 ### Classworks List
-![Classworks Listk](screenshots/classworks.png)
+<img src="screenshots/classworks.png" width="600" />
 
 ### Broadcast Notification 
-![Broadcast Notification](screenshots/notifications.png)
+<img src="screenshots/notifications.png" width="600" />
 
 ### Email Notification (Mailtrap)
-![Email Notification](screenshots/mail.png)
+<img src="screenshots/mail.png" width="600" />
 
 ### Database Notification 
-![Database Notification](screenshots/databaseNotification.png)
+<img src="screenshots/databaseNotification.png" width="600" />
 
 ### Localization
-![Localization](screenshots/localization.png)
+<img src="screenshots/localization.png" width="600" />
 
 ### Submissions
-![Submissions](screenshots/submission-for-this-classwork.png)
+<img src="screenshots/submission-for-this-classwork.png" width="600" />
 
 ---
 
