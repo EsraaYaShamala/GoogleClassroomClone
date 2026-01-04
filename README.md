@@ -153,6 +153,34 @@ php artisan serve
 
 ---
 
+## 📸 Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+### Classrooms List
+![Classrooms List](screenshots/classrooms.png)
+
+### Classworks List
+![Classworks Listk](screenshots/classworks.png)
+
+### Broadcast Notification 
+![Broadcast Notification](screenshots/notifications.png)
+
+### Email Notification (Mailtrap)
+![Email Notification](screenshots/mail.png)
+
+### Database Notification 
+![Database Notification](screenshots/databaseNotification.png)
+
+### Localization
+![Localization](screenshots/localization.png)
+
+### Submissions
+![Submissions](screenshots/submission-for-this-classwork.png)
+
+---
+
 ## 🧑‍💻 Author
 Esraa Yasser
 📧 esraaaboshamala@gmail.com
