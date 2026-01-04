@@ -34,9 +34,9 @@ class NewClassworkNotification extends Notification
     {
         return [
             'database',
+            'mail',
+            'broadcast',
             // HadaraSmsChannel::class,
-            // 'mail',
-            // 'broadcast',
         ];
     }
 
