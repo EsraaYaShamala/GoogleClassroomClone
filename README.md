@@ -173,6 +173,9 @@ php artisan serve
 ### Database Notification 
 <img src="screenshots/databaseNotification.png" width="600" />
 
+### RESTful API (Postman)
+<img src="screenshots/api.png" width="600" />
+
 ### Localization
 <img src="screenshots/localization.png" width="600" />
 
