@@ -25,11 +25,14 @@ class ClassworkRequest extends FormRequest
     {
         return [
             'title' => ['required', 'string', 'max:255'],
+            'type' => ['required', 'string'],
             'description' => ['nullable', 'string'],
             'topic_id' => ['nullable', 'integer', 'exists:topics,id'],
             'published_at' => ['nullable', 'date'],
             'options.grade' => [Rule::requiredIf(fn() => $this->query('type') == 'assignment'), 'numeric', 'min:0'],
-            'options.due_date' => ['nullable', 'date', 'after:published_at']
+            'options.due_date' => ['nullable', 'date', 'after:published_at'],
+            'students' => ['required', 'array'],
+            'students.*' => ['integer', 'exists:users,id'],
         ];
     }
 

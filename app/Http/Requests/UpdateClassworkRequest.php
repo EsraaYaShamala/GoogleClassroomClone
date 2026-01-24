@@ -25,11 +25,14 @@ class UpdateClassworkRequest extends FormRequest
         $classwork = $this->route('classwork'); // هذا بيجيب الكلاسورك من قاعدة البيانات اذا كنت مستخدم model binding
         return [
             'title' => ['required', 'string', 'max:255'],
+            'type' => ['sometimes', 'required', 'string'],
             'description' => ['nullable', 'string'],
             'topic_id' => ['nullable', 'integer', 'exists:topics,id'],
             'published_at' => ['nullable', 'date'],
-            'options.grade' => [Rule::requiredIf(fn() => $classwork->type == 'assignment'), 'numeric', 'min:0'],
-            'options.due_date' => ['nullable', 'date', 'after:published_at']
+            'options.grade' => ['sometimes', Rule::requiredIf(fn() => $classwork->type == 'assignment'), 'numeric', 'min:0'],
+            'options.due_date' => ['nullable', 'date', 'after:published_at'],
+            'students' => ['required', 'array'],
+            'students.*' => ['integer', 'exists:users,id'],
         ];
     }
 
